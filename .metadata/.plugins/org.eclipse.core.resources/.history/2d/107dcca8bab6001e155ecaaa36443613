@@ -1,0 +1,7 @@
+package com_ERP_Pages;
+
+import com_BasePage_ERP.Basepage_erp;
+
+public class ERP_Login extends Basepage_erp {
+
+}

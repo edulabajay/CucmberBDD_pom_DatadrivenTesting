@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Runner.java&apos; to &apos;CRM_CucumberBDD_POM/src/main/java/com_qa_Runner&apos;&#x0D;&#x0A;- Original project: &apos;CRM_CucumberBDD_Maven&apos;&#x0D;&#x0A;- Destination element: &apos;CRM_CucumberBDD_POM/src/main/java/com_qa_Runner&apos;&#x0D;&#x0A;- Original element: &apos;com.Runner.Runner.java&apos;" description="Copy compilation unit" destination="=CRM_CucumberBDD_POM/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com_qa_Runner" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.Runner{Runner.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1704114692944" units="1" version="1.0"/>
+</session>

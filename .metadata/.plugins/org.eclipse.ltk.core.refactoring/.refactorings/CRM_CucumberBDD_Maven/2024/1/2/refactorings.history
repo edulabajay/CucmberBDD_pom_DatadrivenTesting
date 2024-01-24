@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TypesScenario.feature&apos; to &apos;CRM_CucumberBDD_POM_Maven/src/main/java/com.featurefile&apos;&#x0D;&#x0A;- Original project: &apos;CRM_CucumberBDD_Maven&apos;&#x0D;&#x0A;- Destination element: &apos;CRM_CucumberBDD_POM_Maven/src/main/java/com.featurefile&apos;&#x0D;&#x0A;- Original element: &apos;TypesScenario.feature&apos;" description="Copy file" destination="=CRM_CucumberBDD_POM_Maven/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.featurefile" element1="src/main/java/com/feature/TypesScenario.feature" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1704891426783" units="0" version="1.0"/>
+</session>

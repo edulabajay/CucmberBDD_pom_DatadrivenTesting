@@ -1,0 +1,49 @@
+package com_stepdefinition;
+
+import com_BasePage_ERP.Basepage_erp;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class ERP_Stepdefinition extends Basepage_erp {
+
+@Given("User should be on the login page")
+public void user_should_be_on_the_login_page() {
+   
+}
+
+@When("Title of the login page is Free CRM")
+public void title_of_the_login_page_is_free_crm() {
+  
+}
+
+@Then("User enters \\\"(.*)\\\" and \\\"(.*)\\\"$")
+public void user_enters_and(String string, String string2) {
+   
+}
+
+@Then("User clicks on the login button")
+public void user_clicks_on_the_login_button() {
+   
+}
+
+@Then("User clicks on the create contact button")
+public void user_clicks_on_the_create_contact_button() {
+    
+}
+
+@Then("User enters \\\"(.*)\\\", \\\"(.*)\\\", \\\"(.*)\\\", and \\\"(.*)\\\"$")
+public void user_enters_and(String string, String string2, String string3, String string4) {
+  
+}
+
+@Then("User clicks on the save button")
+public void user_clicks_on_the_save_button() {
+   
+}
+
+@Then("close the browser")
+public void close_the_browser() {
+   
+}
+}

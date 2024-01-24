@@ -1,0 +1,15 @@
+Feature: CRM Functional Testing
+
+  Scenario Outline: Customer Relationship Management and Contact Test Scenario
+    Given user should be on the login page
+    When User enters "<user_email>" and "<user_password>"
+    And User clicks on the login button
+    Then User should be on the homepage
+    And User clicks on the create contact button
+    And User enters "<user_first_name>", "<user_middle_name>", "<user_last_name>", and "<user_company_name>"
+
+    Examples: 
+      | user_email                  | user_password | user_first_name | user_middle_name | user_last_name | user_company_name |
+      | ajaybalajikadam69@gmail.com | edulab321     | Pritsh          | edulab           | kamle          | edulab exchange   |
+      | ajaybalajikadam69@gmail.com | edulab321     | ganesh          | ravsab           | madne          | edulab exchange   |
+      | test@gmail.com              | edulab321     | kaka            | edulab           | divekar        | edulab exchange   |

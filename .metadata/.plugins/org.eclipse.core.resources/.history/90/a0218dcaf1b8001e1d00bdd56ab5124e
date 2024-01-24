@@ -1,0 +1,19 @@
+Feature: CRM Functional Testing
+
+  Scenario: User Login and Create Contact
+    Given User should be on the login page
+    When Title of the login page is Free CRM
+    And User enters "<user_email>" and "<user_password>"
+    And User clicks on the login button
+    Then User should be on the homepage
+    And User clicks on the create contact button
+    And User enters "<user_first_name>", "<user_middle_name>", "<user_last_name>", and "<user_company_name>"
+    And User clicks on the save button
+    And close the browser
+
+    Examples: 
+      | user_email                  | user_password | user_first_name | user_middle_name | user_last_name | user_company_name |
+      | ajaybalajikadam69@gmail.com | edulab321     | A          | edulab           | kamle          | edulab exchange   |
+      | ajaybalajikadam69@gmail.com | edulab321     | B          | ravsab           | madne          | edulab exchange   |
+      | test@gmail.com              | edulab321     | C            | edulab           | divekar        | edulab exchange   |
+

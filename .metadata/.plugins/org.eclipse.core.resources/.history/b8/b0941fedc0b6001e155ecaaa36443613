@@ -1,0 +1,10 @@
+Feature: CRM Functional Testing
+
+Scenario Outline: Customer Relationship Management and Contact Test Scenario
+
+Given user should be on login page
+Then User enters "<user_email>" and "<user_password>"
+Then User click on login button
+Then User should be on homepage
+Then User will click on create contact button
+Then User enters "<user_first_name>" and "<user_middle name>" and "<user_last_name>" and "<user_company_name>"

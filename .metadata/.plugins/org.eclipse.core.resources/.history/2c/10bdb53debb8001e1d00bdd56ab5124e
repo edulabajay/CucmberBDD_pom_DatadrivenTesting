@@ -1,0 +1,12 @@
+package com_stepdefinition;
+
+import com_BasePage_ERP.Basepage_erp;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class ERP_Stepdefinition extends Basepage_erp {
+
+
+
+}

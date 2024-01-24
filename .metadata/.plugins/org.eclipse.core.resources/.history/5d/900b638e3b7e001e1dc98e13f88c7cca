@@ -1,0 +1,59 @@
+package com.qa.base;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+
+public class Basepage_pom {
+
+	static WebDriver driver;
+	
+	static Properties prop;
+	
+	
+	
+	public Basepage_pom() {
+		
+		try {
+			
+			prop = new Properties();
+			FileInputStream ip=new FileInputStream("");
+			prop.load(ip);	
+	
+		}catch (FileNotFoundException e) {
+			
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	
+	
+	}
+	
+	
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+

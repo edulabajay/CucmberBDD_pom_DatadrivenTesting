@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value=" // Write code here that turns the phrase above into concrete actions"/>
+		<list key="findhistory">
+			<item value=" // Write code here that turns the phrase above into concrete actions"/>
+		</list>
+	</section>
+</section>

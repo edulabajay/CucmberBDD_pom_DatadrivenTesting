@@ -1,0 +1,24 @@
+package com_stepdefinition;
+
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions
+(
+
+features = "",
+glue = {""},
+plugin = {"pretty","html:test-output"},
+monochrome=true, // to display console in  readable output
+dryRun = false
+
+)
+
+public class Runner_Test {
+
+}
+
+
+public class ERP_Stepdefinition {
+
+}
